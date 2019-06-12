@@ -1,4 +1,4 @@
-import { solve } from './001'
+import { solve } from './index'
 
 describe('Problem 001', () => {
   test('sum of all the multiples of 3 or 5 below 1000 is 233168', () => {

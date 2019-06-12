@@ -7,12 +7,12 @@ for (let i = 1; i <= files.length; i++) {
   describe(`Problem ${i}`, () => {
     const startTime = new Date()
     const fileName = `00${i}`.slice(-3)
-    const answer = require(`../src/solutions/${fileName}/${fileName}`).default
+    const answer = require(`../src/solutions/${fileName}/`).default
     const endTime = new Date()
 
     const elapsedTime = endTime - startTime
 
-    it(`Your answer: ${answer} (${elapsedTime}ms)`, () => {
+    test(`Your answer: ${answer} (${elapsedTime}ms)`, () => {
       const correctAnswer = answers[`problem${i}`]
 
       expect(answer).toBe(correctAnswer)
