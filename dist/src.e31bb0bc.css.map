@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles/index.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"src.e31bb0bc.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: Arial, sans-serif;\r\n  font-size: 16px;\r\n  background: #ddd;\r\n}\r\n"]}
