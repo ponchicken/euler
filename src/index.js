@@ -1,3 +1,3 @@
 import './styles/index.css'
 
-import './solutions/002'
+import './custom/promiseQuiue'
